@@ -42,9 +42,9 @@ public class Main {
         System.out.println("Task # 3");
 
         for (int i = firstArr.length - 1; i >= 0; i--) {
-            System.out.print(i);
+            System.out.print(firstArr[i]);
             if (i != 0) {
-                System.out.print(",");
+                System.out.print(", ");
             }
         }
         System.out.println();
